@@ -7,6 +7,9 @@ from nltk.corpus import stopwords
 import Dataset_Generator
 import fitz
 
+#pickle is just to save the model
+import pickle
+
 nltk.download('stopwords')
 vectorizer=CountVectorizer()
 
@@ -42,3 +45,6 @@ if __name__=='__main__':
     text=get_input_from_pdf()
     text=vectorizer.transform([text])
     print(model.predict(text))
+    #Saving model file somewhere to be used by another file.
+    pickle.dump(vectorizer, open('vectorizer.pickle', 'wb'))
+    pickle.dump(model,open('Classification.model','wb'))
