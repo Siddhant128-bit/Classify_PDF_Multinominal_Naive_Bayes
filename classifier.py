@@ -5,7 +5,9 @@ import string
 import nltk
 from nltk.corpus import stopwords
 import Dataset_Generator
+from Dataset_Generator import get_topics
 import fitz
+import os
 
 #pickle is just to save the model
 import pickle
@@ -38,13 +40,13 @@ def get_input_from_pdf():
     return words
 
 
+
+
 if __name__=='__main__':
     print('DOCUMENT CLASSIFIER')
     dataset=get_data_set()
     model=NB_Model_Train(dataset)
-    text=get_input_from_pdf()
-    text=vectorizer.transform([text])
-    print(model.predict(text))
+    print('Model Training Successful !!')
     #Saving model file somewhere to be used by another file.
     pickle.dump(vectorizer, open('vectorizer.pickle', 'wb'))
     pickle.dump(model,open('Classification.model','wb'))
