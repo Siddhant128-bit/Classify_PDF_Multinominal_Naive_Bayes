@@ -12,6 +12,8 @@ def get_all_info(title,text):
 
     return title,text
 
+def get_topics():
+    return os.listdir('Dataset')
 
 def get_Data_and_Label(df):
     title=[]
@@ -36,7 +38,7 @@ def pre_process_Data_and_Label(df,title):
     #Iterating over each index and getting content of each file.
     for i in range(df.shape[0]):
         df.at[i,'Text']=get_Text_from_pdf(df.iloc[i])
-    title=list(set(title))
+    title=get_topics()
     for i in range(len(title)):
         df.loc[df['Title']==title[i],'Title']=i
     return df

@@ -29,8 +29,6 @@ def move_to_folders(path_dir):
             os.remove(path_dir+'/'+file)
             
 
-
-
 if __name__=='__main__':
     path_dir=input('Enter the path where all documents are present: ')
     topics=get_topics(path_dir)
