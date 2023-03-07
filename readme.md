@@ -23,6 +23,8 @@ This note is to log the development process of the overall system. So let's begi
 <div align='left'>
     <h4><b> Multinomial Naive Bayes </b></h4>
     <img src='https://universe-files.vzaar.com/vzaar/vz2/daf/target/vz2dafd66cf49442ad9c840b1e6d74b211.jpg'>
+    <p> We are going to take a bunch of words convert it into dataset having words and title such that the first column of dataste consists all the words required for the particular task of classification and title consists all the label assigned to a particular class. </p>
+    
 
 <div align='left'>
     <p>&nbsp;&nbsp; This log file will be updated as I develop more about this system and hence we can track how the work has been going on.</p>
