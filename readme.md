@@ -32,9 +32,12 @@ This note is to log the development process of the overall system. So let's begi
 
 
 <br>
-<div align='left'>
-    <p>&nbsp;&nbsp; This log file will be updated as I develop more about this system and hence we can track how the work has been going on.</p>
-<br>
 <div align='center'>
     <p> First we are going to use <b>  Preprocess </b> to create folders where all files are stored then we are going to use <b> Dataset Generator</b> to  generate an excell file with all the details that we are going to use for training purpose. Finally we are going to use dclassifier.py for classification purpose  of the files
+</div>
+
+
+<br>
+<div align='left'>
+    <p>&nbsp;&nbsp; This log file will be updated as I develop more about this system and hence we can track how the work has been going on.</p>
 </div>
