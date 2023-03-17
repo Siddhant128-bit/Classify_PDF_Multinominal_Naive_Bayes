@@ -27,17 +27,19 @@ This note is to log the development process of the overall system. So let's begi
     <h4><b> Multinomial Naive Bayes </b></h4>
     <img src='https://universe-files.vzaar.com/vzaar/vz2/daf/target/vz2dafd66cf49442ad9c840b1e6d74b211.jpg'>
     <p> We are going to take a bunch of words convert it into dataset having words and title such that the first column of dataste consists all the words required for the particular task of classification and title consists all the label assigned to a particular class. </p>
+    <br>
     <ul> Libraries used </ul>
         <li> Pymupdf (fitz) </li>
         <li> Pandas </li>
         <li> Scikit-learn </li>
     </ul>
-
-
+<br>
 <br>
 <div align='right'>
     <p> First we are going to use <b>  Preprocess </b> to create folders where all files are stored then we are going to use <b> Dataset Generator</b> to  generate an excell file with all the details that we are going to use for training purpose. Finally we are going to use dclassifier.py for classification purpose  of the files
 </div>
+<br>
+<br>
 
 
 <div align='left'>
