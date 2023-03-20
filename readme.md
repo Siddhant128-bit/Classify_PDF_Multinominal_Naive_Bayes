@@ -41,3 +41,9 @@ This note is to log the development process of the overall system. So let's begi
 <div align='left'>
     <p> This bag of words approach can be swtiched with tfidf approach to test for new possible words and working on how it can be used to make a better classifcation model for special terms and words </p>
 </div>
+
+
+<div align='left'>
+    <p> This project can be scaled up to include deep learning approach to have feature extraction in and of itself. </p>
+</div>
+
