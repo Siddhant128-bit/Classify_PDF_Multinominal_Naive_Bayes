@@ -1,4 +1,5 @@
 <h1 align='center'> Document Classification System using Multinomial Naive Bayes Theorem </h1>
+<br>
 
 This note is to log the development process of the overall system. So let's begin 
 <h3> What is this system about ? </h3>
