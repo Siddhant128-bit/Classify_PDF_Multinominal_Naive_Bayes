@@ -36,11 +36,7 @@ This note is to log the development process of the overall system. So let's begi
     <p> First we are going to use <b>  Preprocess </b> to create folders where all files are stored then we are going to use <b> Dataset Generator</b> to  generate an excell file with all the details that we are going to use for training purpose. Finally we are going to use dclassifier.py for classification purpose  of the files
 </div>
 
+
 <div align='left'>
     <p> This bag of words approach can be swtiched with tfidf approach to test for new possible words and working on how it can be used to make a better classifcation model for special terms and words </p>
-</div>
-
-<br>
-<div align='left'>
-    <p>&nbsp;&nbsp; This log file will be updated as I develop more about this system and hence we can track how the work has been going on.</p>
 </div>
