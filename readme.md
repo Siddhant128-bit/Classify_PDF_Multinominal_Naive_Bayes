@@ -55,3 +55,8 @@ This note is to log the development process of the overall system. So let's begi
     <p> This project can be scaled up to include deep learning approach to have feature extraction in and of itself. </p>
 </div>
 
+<br>
+
+<div align='center'>
+    <p> Documentation on Progress !! </p>
+</div>
