@@ -6,19 +6,21 @@ This note is to log the development process of the overall system. So let's begi
 <div align='left'>
     <p>&nbsp;&nbsp; The idea is we are going to build a system which can read any pdf and build a profile using vectorizer like count vectorizer this will make our system capable of understanding what kind of words are there in such document type and hence will be able to predict any new document as one of the previous datatypes </p>
 </div>
-
+<br>
 
 <h3> How does it work </h3>
 
 <div align='left'>
     <p>&nbsp;&nbsp; Initially we train our model to understand datas from past which are labeled as particular topic realted or not. Then we are going to use various unknown data for inference testing and see how well it performs. </p>
 </div>
+<br>
 
 <h3> Where can  it work </h3>
 
 <div align='left'>
     <p>&nbsp;&nbsp; Our system as of now works only with pdf documents but we can make it adaptable to work with any datatype provided we can read the text from that particular file.</p>
 </div>
+<br>
 
 <h3>Let's learn more </h3>
 <div align='left'>
@@ -33,7 +35,7 @@ This note is to log the development process of the overall system. So let's begi
 
 
 <br>
-<div align='center'>
+<div align='right'>
     <p> First we are going to use <b>  Preprocess </b> to create folders where all files are stored then we are going to use <b> Dataset Generator</b> to  generate an excell file with all the details that we are going to use for training purpose. Finally we are going to use dclassifier.py for classification purpose  of the files
 </div>
 
@@ -41,3 +43,9 @@ This note is to log the development process of the overall system. So let's begi
 <div align='left'>
     <p> This bag of words approach can be swtiched with tfidf approach to test for new possible words and working on how it can be used to make a better classifcation model for special terms and words </p>
 </div>
+
+
+<div align='right'>
+    <p> This project can be scaled up to include deep learning approach to have feature extraction in and of itself. </p>
+</div>
+
