@@ -1,4 +1,5 @@
 <h1 align='center'> Document Classification System using Multinomial Naive Bayes Theorem </h1>
+<br>
 
 This note is to log the development process of the overall system. So let's begin 
 <h3> What is this system about ? </h3>
@@ -37,7 +38,6 @@ This note is to log the development process of the overall system. So let's begi
 </div>
 
 
-<br>
 <div align='left'>
-    <p>&nbsp;&nbsp; This log file will be updated as I develop more about this system and hence we can track how the work has been going on.</p>
+    <p> This bag of words approach can be swtiched with tfidf approach to test for new possible words and working on how it can be used to make a better classifcation model for special terms and words </p>
 </div>
